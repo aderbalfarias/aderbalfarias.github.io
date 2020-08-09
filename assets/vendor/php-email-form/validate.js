@@ -1,12 +1,12 @@
 /**
 * PHP Email Form Validation - v2.0
-* URL: https://bootstrapmade.com/php-email-form/
+* URL: https://bootstrapmade.com/email-form/
 * Author: BootstrapMade.com
 */
 !(function($) {
   "use strict";
 
-  $('form.php-email-form').submit(function(e) {
+  $('form.email-form').submit(function(e) {
     e.preventDefault();
     
     var f = $(this).find('.form-group'),

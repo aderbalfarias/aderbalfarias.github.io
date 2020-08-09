@@ -10,7 +10,7 @@
     }
   });
 
-  // Dev typed
+  // Home typed
   if ($('.typed').length) {
     var typed_strings = $(".typed").data('typed-items');
     typed_strings = typed_strings.split(',')
